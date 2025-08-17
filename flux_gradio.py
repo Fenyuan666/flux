@@ -9,7 +9,7 @@ os.environ['no_proxy'] = '*'
 # 初始化客户端
 client = InferenceClient(
     provider="fal-ai",
-    api_key="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",
+    api_key="替换成你的haggingface token",
 )
 
 def generate_image(prompt):

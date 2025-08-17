@@ -8,7 +8,7 @@ os.environ['no_proxy'] = '*'
 
 client = InferenceClient(
     provider="fal-ai",
-    api_key="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",
+    api_key="替换成你的haggingface token",
 )
 
 # output is a PIL.Image object
